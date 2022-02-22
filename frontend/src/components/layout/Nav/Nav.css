@@ -1,0 +1,30 @@
+nav ul {
+  display: flex;
+  position: absolute;
+  top: 25px;
+  left: 520px;
+}
+
+nav ul li {
+  height: 5px;
+  width: 5px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  margin-left: 100px;
+  transition: all 0.5s ease;
+}
+
+nav ul li a {
+  position: absolute;
+  color: #fff;
+  font-size: 12px;
+  margin-bottom: 30px;
+  opacity: 100%;
+}
+
+li:hover {
+  background: #fff;
+}

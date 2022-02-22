@@ -1,0 +1,72 @@
+.titulonovedades {
+  font-size: 40px;
+  position: relative;
+  top: 100px;
+  /* margin-top: 250px; */
+}
+
+.titulonovedades span {
+  font-weight: 700;
+}
+
+.lineadiv {
+  background: #fff;
+  height: 2px;
+  width: 500px;
+  position: relative;
+  top: 110px;
+}
+
+.subtitulonovedades {
+  position: relative;
+  top: 120px;
+}
+
+.containercontacto {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  color: black;
+  position: absolute;
+  top: 270px;
+}
+
+.containercontacto input {
+  color: black;
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.botoncontacto {
+  position: absolute;
+  top: 550px;
+  background: #e03a5d;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.novedadescont {
+  position: relative;
+  width: 800px;
+  top: 250px;
+  right: 400px;
+}
+
+.novedades {
+  height: 200px;
+}
+
+.imgnov img {
+  width: auto;
+
+  height: 160px;
+  margin-bottom: 10px;
+}

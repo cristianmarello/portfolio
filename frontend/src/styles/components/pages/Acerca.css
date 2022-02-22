@@ -1,0 +1,44 @@
+.tituloacerca {
+  font-size: 40px;
+  position: relative;
+  top: 100px;
+  /* margin-top: 250px; */
+}
+
+.tituloacerca span {
+  font-weight: 700;
+}
+
+.lineadiv {
+  background: #fff;
+  height: 2px;
+  width: 500px;
+  position: relative;
+  top: 110px;
+}
+
+.subtituloacerca {
+  position: relative;
+  top: 120px;
+}
+
+.contenidoacerca {
+  position: relative;
+  top: 250px;
+  right: 500px;
+  font-size: 18px;
+}
+
+.iconos img {
+  width: 200px;
+  position: absolute;
+  top: 500px;
+  right: 1000px;
+}
+
+.fotoacerca img {
+  width: 500px;
+  position: absolute;
+  top: 150px;
+  right: 140px;
+}

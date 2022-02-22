@@ -1,0 +1,116 @@
+.titulogaleria {
+  font-size: 40px;
+  position: relative;
+  top: 100px;
+  /* margin-top: 250px; */
+}
+
+.titulogaleria span {
+  font-weight: 700;
+}
+
+.lineadiv {
+  background: #fff;
+  height: 2px;
+  width: 500px;
+  top: 110px;
+}
+
+.subtitulogaleria {
+  position: relative;
+  top: 120px;
+}
+
+.container {
+  position: relative;
+  top: 190px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  margin-top: 100px;
+}
+
+.container .box {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  transition: 0.5s;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.container .box:hover {
+  z-index: 1;
+  transform: scale(1.25);
+}
+
+.container .box .imgbx:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: linear-gradient(180deg, #c8c8c8, #1f1d1d);
+  mix-blend-mode: multiply;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.container .box:hover .imgbx:before {
+  opacity: 1;
+}
+
+.container .box .imgbx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.container .box .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: flex;
+  padding: 20px;
+  align-items: flex-end;
+}
+
+.container .box .content h2 {
+  color: #fff;
+  transition: 0.5s;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  font-size: 20px;
+  transform: translateY(200px);
+}
+
+.container .box:hover .content h2 {
+  transform: translateY(0);
+  transition-delay: 0.2s;
+}
+
+.container .box .content p {
+  color: #fff;
+  transform: translateY(200px);
+  transition: 0.5s;
+  font-size: 10px;
+  width: 100%;
+  position: absolute;
+}
+
+.container .box:hover .content p {
+  transform: translateY(0);
+  transition-delay: 0.3s;
+}

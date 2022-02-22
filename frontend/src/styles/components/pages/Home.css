@@ -1,0 +1,111 @@
+.titulo {
+  font-size: 70px;
+  color: black;
+  position: absolute;
+  top: 150px;
+  -webkit-text-stroke: 0.3px white;
+}
+
+.titulo::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  color: white;
+  -webkit-text-stroke: 2px white;
+  overflow: hidden;
+  animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+  70%,
+  90% {
+    width: 100%;
+  }
+}
+
+.titulo2 {
+  font-size: 80px;
+  font-weight: 600;
+  position: absolute;
+  top: 220px;
+  -webkit-text-stroke: 0.3px white;
+  color: black;
+}
+.titulo2::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  color: white;
+  -webkit-text-stroke: 2px white;
+  overflow: hidden;
+  animation: animate 6s linear infinite;
+}
+@keyframes animate {
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+  70%,
+  90% {
+    width: 100%;
+  }
+}
+
+.subtitulo {
+  position: absolute;
+  top: 320px;
+  color: black;
+  font-weight: 800;
+  background: white;
+}
+
+.minimalism {
+  position: absolute;
+  writing-mode: vertical-lr;
+  right: 160px;
+  top: 200px;
+  color: #e03a5d;
+}
+.linea {
+  background: #e03a5d;
+  height: 100px;
+  width: 2px;
+  position: absolute;
+  right: 172px;
+  top: 300px;
+}
+
+button {
+  position: absolute;
+  top: 360px;
+  width: 160px;
+  height: 40px;
+  border-radius: 20px;
+  background: #e03a5d;
+  border: none;
+}
+
+button a {
+  color: rgb(255, 255, 255);
+}
+
+.foto img {
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  overflow: hidden;
+  top: 100px;
+  right: 310px;
+}

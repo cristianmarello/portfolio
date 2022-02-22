@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  font-family: "Be Vietnam Pro", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+body {
+  background: url(../public/img/otrofondo.jpg) no-repeat;
+  background-size: 100%;
+}
+
+.holder {
+  width: 1000px;
+
+  margin: 0 auto;
+  display: flex;
+}
